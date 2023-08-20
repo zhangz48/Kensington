@@ -1,0 +1,70 @@
+﻿@page "/"
+@inject IJSRuntime JSRuntime
+
+
+<div class="header">
+    <h1>KENSINGTON.</h1>
+    <div class="headline">
+        <a href="#home" @onclick="@(e => ScrollToSection("home"))">Home</a>
+        <a href="#properties" @onclick="@(e => ScrollToSection("properties"))">Properties</a>
+        <a href="#about" @onclick="@(e => ScrollToSection("about"))">About Us</a>
+        <a href="#contact" @onclick="@(e => ScrollToSection("contact"))">Contact</a>
+    </div>
+</div>
+
+
+<div class="section section-with-background">
+    <div class="text-overlay">
+        <h2>Discover a New Level of Luxury</h2>
+        <p>BUY | SELL | RENT</p>
+    </div>
+</div>
+
+
+<div class="heading">
+    <h3>Featured Collections</h3>
+</div>
+
+<div class="parent-container">
+    <div class="video-row">
+        <div class="video-container">
+            <iframe width="448" height="252" src="https://www.youtube.com/embed/QSTzO1017Ps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <div class="video-container">
+            <iframe width="448" height="252" src="https://www.youtube.com/embed/ZN4cr80U9z0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <div class="video-container">
+            <iframe width="448" height="252" src="https://www.youtube.com/embed/lJPwjHsFflo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+
+
+<div id="properties" class="section">
+    <div class="heading">
+        <h3>Properties</h3>
+    </div>
+</div>
+
+<div id="about" class="section">
+    <div class="heading">
+        <h3>About Us</h3>
+    </div>
+</div>
+
+<div id="contact" class="section">
+    <div class="heading">
+        <h3>Contact</h3>
+    </div>
+</div>
+
+
+@code {
+    private async Task ScrollToSection(string sectionId)
+    {
+        await JSRuntime.InvokeVoidAsync("scrollToSection", sectionId);
+    }
+}
+

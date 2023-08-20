@@ -1,0 +1,67 @@
+﻿<Properties StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.BlazorServer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{37E327D9-EB4E-4F68-B485-5D2F8E39EC1B}" ItemName="BlazorServer" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.Workbench ActiveDocument="BlazorWebAssembly/Pages/Index.razor">
+    <Files>
+      <File FileName="BlazorServer/Program.cs" />
+      <File FileName="BlazorServer/appsettings.json" />
+      <File FileName="BlazorServer/App.razor" />
+      <File FileName="BlazorServer/_Imports.razor" />
+      <File FileName="BlazorServer/appsettings.Development.json" />
+      <File FileName="BlazorServer/Pages/_Host.cshtml" Line="1" Column="1" />
+      <File FileName="BlazorServer/Pages/Error.cshtml" Line="29" Column="16" />
+      <File FileName="BlazorServer/Pages/Error.cshtml.cs" />
+      <File FileName="BlazorServer/Pages/Index.razor" Line="29" Column="1" />
+      <File FileName="BlazorServer/Shared/MainLayout.razor" />
+      <File FileName="BlazorServer/wwwroot/css/site.css" Line="112" Column="15" />
+      <File FileName="BlazorServer/Shared/NavMenu.razor" />
+      <File FileName="BlazorServer/Shared/NavMenu.razor.css" />
+      <File FileName="BlazorServer/Shared/MainLayout.razor.css" />
+      <File FileName="BlazorServer/Properties/launchSettings.json" />
+      <File FileName="BlazorWebAssembly/Pages/Index.razor" Line="1" Column="1" />
+      <File FileName="BlazorServer/Data/WeatherForecast.cs" />
+      <File FileName="BlazorServer/Data/WeatherForecastService.cs" />
+      <File FileName="BlazorServer/wwwroot/css/bootstrap/bootstrap.min.css" />
+      <File FileName="BlazorServer/wwwroot/css/bootstrap/bootstrap.min.css.map" />
+      <File FileName="BlazorServer/wwwroot/css/open-iconic/FONT-LICENSE" />
+      <File FileName="BlazorServer/wwwroot/css/open-iconic/ICON-LICENSE" />
+      <File FileName="BlazorServer/wwwroot/css/open-iconic/README.md" />
+      <File FileName="BlazorWebAssembly/wwwroot/css/app.css" Line="14" Column="1" />
+      <File FileName="BlazorWebAssembly/Pages/Counter.razor" Line="1" Column="1" />
+      <File FileName="BlazorWebAssembly/Pages/FetchData.razor" Line="1" Column="1" />
+      <File FileName="BlazorWebAssembly/Shared/MainLayout.razor" Line="13" Column="25" />
+      <File FileName="BlazorWebAssembly/Shared/MainLayout.razor.css" Line="25" Column="29" />
+      <File FileName="BlazorWebAssembly/Shared/SurveyPrompt.razor" Line="1" Column="1" />
+      <File FileName="BlazorWebAssembly/Shared/NavMenu.razor.css" Line="1" Column="1" />
+      <File FileName="BlazorWebAssembly/_Imports.razor" Line="1" Column="1" />
+      <File FileName="BlazorWebAssembly/App.razor" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BlazorApp" expanded="True">
+            <Node name="BlazorServer" expanded="True">
+              <Node name="Pages" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BlazorWebAssembly PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
