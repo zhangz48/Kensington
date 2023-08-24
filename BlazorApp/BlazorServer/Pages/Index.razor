@@ -1,5 +1,6 @@
 ﻿@page "/"
 @inject IJSRuntime JSRuntime
+@inject HttpClient Http
 
 
 <div class="header">
@@ -46,6 +47,36 @@
     <div class="heading">
         <h3>Properties</h3>
     </div>
+    <div class="property-listing">
+        @if (properties == null)
+        {
+            <p>Loading...</p>
+        }
+        else if (!properties.Any())
+        {
+            <p>No property is listed currently.</p>
+        }
+        else
+        {
+            <!-- Display properties here -->
+            @for (var i = 0; i < propertiesToShow; i++)
+            {
+                <div class="property-card">
+                    <img src="@properties[i].ThumbnailUrl" alt="@properties[i].Description">
+                    <p>@properties[i].Price</p>
+                    <p>@properties[i].Beds</p>
+                    <p>@properties[i].Baths</p>
+                    <p>@properties[i].SqFt</p>
+                    <p>@properties[i].Address</p>
+                </div>
+            }
+
+            @if (propertiesToShow < properties.Count)
+            {
+                <button @onclick="ShowMoreProperties">Show More</button>
+            }
+        }
+    </div>
 </div>
 
 <div id="about" class="section">
@@ -65,6 +96,38 @@
     private async Task ScrollToSection(string sectionId)
     {
         await JSRuntime.InvokeVoidAsync("scrollToSection", sectionId);
+    }
+
+
+    private List<Property> properties;
+    private int propertiesToShow = 8;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            properties = await Http.GetFromJsonAsync<List<Property>>("your_api_endpoint_here");
+        }
+        catch (Exception ex)
+        {
+            // Handle error appropriately, maybe log it or set a flag to display a message
+        }
+    }
+
+    private void ShowMoreProperties()
+    {
+        propertiesToShow = Math.Min(propertiesToShow + 8, properties.Count);
+    }
+
+    public class Property
+    {
+        public string ThumbnailUrl { get; set; }
+        public string Description { get; set; }
+        public string Price { get; set; }
+        public int Beds { get; set; }
+        public int Baths { get; set; }
+        public int SqFt { get; set; }
+        public string Address { get; set; }
     }
 }
 

@@ -9,37 +9,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorServer
 build_property.RootNamespace = BlazorServer
-build_property.ProjectDir = /Users/zhezhang/Documents/Zhe/Programming/Projects/Web App/Kensington/BlazorApp/BlazorServer/
+build_property.ProjectDir = /Users/zhezhang/Documents/Zhe/Programming/Projects/WebApp/Kensington/BlazorApp/BlazorServer/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/zhezhang/Documents/Zhe/Programming/Projects/Web App/Kensington/BlazorApp/BlazorServer
+build_property.MSBuildProjectDirectory = /Users/zhezhang/Documents/Zhe/Programming/Projects/WebApp/Kensington/BlazorApp/BlazorServer
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/zhezhang/Documents/Zhe/Programming/Projects/Web App/Kensington/BlazorApp/BlazorServer/App.razor]
+[/Users/zhezhang/Documents/Zhe/Programming/Projects/WebApp/Kensington/BlazorApp/BlazorServer/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/zhezhang/Documents/Zhe/Programming/Projects/Web App/Kensington/BlazorApp/BlazorServer/Pages/Index.razor]
+[/Users/zhezhang/Documents/Zhe/Programming/Projects/WebApp/Kensington/BlazorApp/BlazorServer/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/zhezhang/Documents/Zhe/Programming/Projects/Web App/Kensington/BlazorApp/BlazorServer/_Imports.razor]
+[/Users/zhezhang/Documents/Zhe/Programming/Projects/WebApp/Kensington/BlazorApp/BlazorServer/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/zhezhang/Documents/Zhe/Programming/Projects/Web App/Kensington/BlazorApp/BlazorServer/Shared/MainLayout.razor]
+[/Users/zhezhang/Documents/Zhe/Programming/Projects/WebApp/Kensington/BlazorApp/BlazorServer/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-s5uh5d1cba
 
-[/Users/zhezhang/Documents/Zhe/Programming/Projects/Web App/Kensington/BlazorApp/BlazorServer/Shared/NavMenu.razor]
+[/Users/zhezhang/Documents/Zhe/Programming/Projects/WebApp/Kensington/BlazorApp/BlazorServer/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-dctiheqh1z
 
-[/Users/zhezhang/Documents/Zhe/Programming/Projects/Web App/Kensington/BlazorApp/BlazorServer/Pages/Error.cshtml]
+[/Users/zhezhang/Documents/Zhe/Programming/Projects/WebApp/Kensington/BlazorApp/BlazorServer/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/zhezhang/Documents/Zhe/Programming/Projects/Web App/Kensington/BlazorApp/BlazorServer/Pages/_Host.cshtml]
+[/Users/zhezhang/Documents/Zhe/Programming/Projects/WebApp/Kensington/BlazorApp/BlazorServer/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

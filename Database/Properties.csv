@@ -1,0 +1,14 @@
+﻿PropertyID,PropertyName,Price,Sqft,Bedrooms,Bathrooms,HomeType,YearBuilt,DateListed,Description,StreetNumber,StreetName,ApartmentUnit,City,State,PostalCode,Country
+1,Bellevue Heights Condo,450000,950,2,2,Condo,2010,3/19/23,Modern 2-bedroom condo with scenic views.,3326,160th Ave SE,100,Bellevue,WA,98008,USA
+2,Kirkland Lakeside Mansion,1200000,3500,4,3,House,2005,3/19/23,Spacious lakeside home with a private dock.,6100,Carillon Pt,,Kirkland,WA,98033,USA
+3,Snoqualmie Serenity,850000,2800,4,2.5,House,2008,3/19/23,Peaceful home with mountain views.,7221,Thompson Ave SE,,Snoqualmie,WA,98065,USA
+4,Redmond Tech Apartments,300000,800,1,1,Apartment,2018,3/19/23,Apartment next to tech hubs.,102,One Micro Soft Way,104,Redmond,WA,98052,USA
+5,Marysville Meadows,600000,2300,3,2,House,2000,3/19/23,Charming suburban family home.,8818,61st Dr NE,,Marysville,WA,98270,USA
+6,,650000,2400,3,2.5,House,1998,3/19/23,House with a beautiful garden.,724,Alder St,,Edmonds,WA,98020,USA
+7,,700000,2600,3,2,House,2002,3/19/23,Coastal home with sea views.,885,W Rocky Point Dr,,Camano Island,WA,98282,USA
+8,,950000,3200,4,3,House,2007,3/19/23,Elegant house in a serene neighborhood.,2035,Ninth Street,,Berkeley,CA,94710,USA
+9,,1500000,4200,5,4,House,2015,3/19/23,Lavish mansion in a prestigious area.,2685,California Street,,Mountain View,CA,94040,USA
+10,,890000,3100,4,3,House,2009,3/19/23,Vintage style house with modern amenities.,2042,High Street,,Oakland,CA,94601,USA
+11,,780000,2700,4,2.5,House,2003,3/19/23,"Ideal home for families, near parks.",4738,Mallard Common,,Fremont,CA,94555,USA
+12,,850000,2900,4,2.5,House,1995,3/19/23,Timeless house with a large backyard.,1219,Carleton Street,,Berkeley,CA,94702,USA
+13,,900000,3000,4,3,House,2017,3/19/23,Modern design house in a peaceful location.,38676,Greenwich Circle,,Fremont,CA,94536,USA

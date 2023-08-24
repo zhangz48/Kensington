@@ -9,6 +9,45 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 1754747083,
+        "Kind": "Components.Component",
+        "Name": "BlazorServer.App",
+        "AssemblyName": "BlazorServer",
+        "DisplayName": "BlazorServer.App",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorServer.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "BlazorServer",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 450211396,
+        "Kind": "Components.Component",
+        "Name": "BlazorServer.App",
+        "AssemblyName": "BlazorServer",
+        "DisplayName": "BlazorServer.App",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorServer.App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorServer.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "BlazorServer",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": -145814859,
         "Kind": "Components.Component",
         "Name": "__GeneratedComponent.AspNetCore_df6d4488085766e8aba580544631c0a041bb1a44",

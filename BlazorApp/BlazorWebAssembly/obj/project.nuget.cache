@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nR93c40lcMkF37LLARYTYDmXVKmWqM54lj/Y3KSXTzSBQeMxddAFRcVOxyZgKD047T7hLH6vPo3qs7TpVr1PXw==",
+  "dgSpecHash": "bgTAENzIlgPfpEmR6XOg45nMoKXoF0C7xE2p27LrtJkOHX8clxGepcmk4ako1HuZVDOjNKVRF0VC8qckXowXvg==",
   "success": true,
-  "projectFilePath": "/Users/zhezhang/Documents/Zhe/Programming/Projects/Web App/Kensington/BlazorApp/BlazorWebAssembly/BlazorWebAssembly.csproj",
+  "projectFilePath": "/Users/zhezhang/Documents/Zhe/Programming/Projects/WebApp/Kensington/BlazorApp/BlazorWebAssembly/BlazorWebAssembly.csproj",
   "expectedPackageFiles": [
     "/Users/zhezhang/.nuget/packages/microsoft.aspnetcore.authorization/7.0.10/microsoft.aspnetcore.authorization.7.0.10.nupkg.sha512",
     "/Users/zhezhang/.nuget/packages/microsoft.aspnetcore.components/7.0.10/microsoft.aspnetcore.components.7.0.10.nupkg.sha512",

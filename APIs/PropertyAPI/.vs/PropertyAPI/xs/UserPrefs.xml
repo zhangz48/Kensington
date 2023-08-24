@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{ABDB5ABD-C12D-4441-86F5-46576EC0C41D}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Program.cs" Line="30" Column="1" />
+      <File FileName="Data/PropertyDbContext.cs" Line="23" Column="1" />
+      <File FileName="Controllers/PropertyImageController.cs" Line="17" Column="28" />
+      <File FileName="Controllers/PropertyController.cs" Line="23" Column="12" />
+      <File FileName="Models/Property.cs" Line="20" Column="43" />
+      <File FileName="Models/PropertyImage.cs" Line="19" Column="1" />
+      <File FileName="Migrations/20230824015358_InitialCreate.Designer.cs" Line="1" Column="1" />
+      <File FileName="Migrations/PropertyDbContextModelSnapshot.cs" Line="1" Column="1" />
+      <File FileName="Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="appsettings.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PropertyAPI" expanded="True">
+            <Node name="PropertyAPI">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.PropertyAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/zhezhang/Documents/Zhe/Programming/Projects/WebApp/Kensington/APIs/PropertyAPI/Data/PropertyDbContext.cs" relfile="Data/PropertyDbContext.cs" line="18" column="1" />
+      <Breakpoint file="/Users/zhezhang/Documents/Zhe/Programming/Projects/WebApp/Kensington/APIs/PropertyAPI/Program.cs" relfile="Program.cs" line="13" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

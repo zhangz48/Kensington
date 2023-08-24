@@ -1806,11 +1806,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/zhezhang/Documents/Zhe/Programming/Projects/Web App/Kensington/BlazorApp/BlazorWebAssembly/BlazorWebAssembly.csproj",
+      "projectUniqueName": "/Users/zhezhang/Documents/Zhe/Programming/Projects/WebApp/Kensington/BlazorApp/BlazorWebAssembly/BlazorWebAssembly.csproj",
       "projectName": "BlazorWebAssembly",
-      "projectPath": "/Users/zhezhang/Documents/Zhe/Programming/Projects/Web App/Kensington/BlazorApp/BlazorWebAssembly/BlazorWebAssembly.csproj",
+      "projectPath": "/Users/zhezhang/Documents/Zhe/Programming/Projects/WebApp/Kensington/BlazorApp/BlazorWebAssembly/BlazorWebAssembly.csproj",
       "packagesPath": "/Users/zhezhang/.nuget/packages/",
-      "outputPath": "/Users/zhezhang/Documents/Zhe/Programming/Projects/Web App/Kensington/BlazorApp/BlazorWebAssembly/obj/",
+      "outputPath": "/Users/zhezhang/Documents/Zhe/Programming/Projects/WebApp/Kensington/BlazorApp/BlazorWebAssembly/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/zhezhang/.nuget/NuGet/NuGet.Config"

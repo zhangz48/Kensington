@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/zhezhang/Documents/Zhe/Programming/Projects/Web App/Kensington/BlazorApp/BlazorServer/BlazorServer.csproj": {}
+    "/Users/zhezhang/Documents/Zhe/Programming/Projects/WebApp/Kensington/BlazorApp/BlazorServer/BlazorServer.csproj": {}
   },
   "projects": {
-    "/Users/zhezhang/Documents/Zhe/Programming/Projects/Web App/Kensington/BlazorApp/BlazorServer/BlazorServer.csproj": {
+    "/Users/zhezhang/Documents/Zhe/Programming/Projects/WebApp/Kensington/BlazorApp/BlazorServer/BlazorServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/zhezhang/Documents/Zhe/Programming/Projects/Web App/Kensington/BlazorApp/BlazorServer/BlazorServer.csproj",
+        "projectUniqueName": "/Users/zhezhang/Documents/Zhe/Programming/Projects/WebApp/Kensington/BlazorApp/BlazorServer/BlazorServer.csproj",
         "projectName": "BlazorServer",
-        "projectPath": "/Users/zhezhang/Documents/Zhe/Programming/Projects/Web App/Kensington/BlazorApp/BlazorServer/BlazorServer.csproj",
+        "projectPath": "/Users/zhezhang/Documents/Zhe/Programming/Projects/WebApp/Kensington/BlazorApp/BlazorServer/BlazorServer.csproj",
         "packagesPath": "/Users/zhezhang/.nuget/packages/",
-        "outputPath": "/Users/zhezhang/Documents/Zhe/Programming/Projects/Web App/Kensington/BlazorApp/BlazorServer/obj/",
+        "outputPath": "/Users/zhezhang/Documents/Zhe/Programming/Projects/WebApp/Kensington/BlazorApp/BlazorServer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/zhezhang/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

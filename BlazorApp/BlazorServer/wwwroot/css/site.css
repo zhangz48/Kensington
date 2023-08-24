@@ -73,6 +73,21 @@ h3 {
     text-align: center;
 }
 
+.property-listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.property-card {
+    width: calc(25% - 1em);
+    margin: 0.5em;
+}
+
+.property-info {
+    /* additional styling here */
+}
+
 .section-with-background {
     background-image: url('https://kensington-real-estate.s3.us-west-2.amazonaws.com/background-images/avi-werde-hHz4yrvxwlA-unsplash.jpg');
     background-size: cover;
