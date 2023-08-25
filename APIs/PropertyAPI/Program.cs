@@ -11,7 +11,8 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 
 builder.Services.AddDbContext<PropertyDbContext>(options =>
-    options.UseSqlite("Data Source=/Users/zhezhang/Documents/Zhe/Programming/Projects/WebApp/Kensington/Database/properties.db"));
+    options.UseSqlite("Data Source=/Users/zhezhang/Documents/Zhe/Programming/Projects/WebApp/Kensington/Database/properties.db;"));
+    // options.UseSqlite("Data Source=C:\\src\\playground\\Kensington\\Database\\properties.db;"));
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
