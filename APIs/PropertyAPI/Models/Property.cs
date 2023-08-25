@@ -18,7 +18,7 @@ public class Property
     public string Description { get; set; }
     public int StreetNumber { get; set; }
     public string StreetName { get; set; }
-    public string ApartmentUnit { get; set; }
+    public string? ApartmentUnit { get; set; }
     public string City { get; set; }
     public string State { get; set; }
     public int PostalCode { get; set; }
